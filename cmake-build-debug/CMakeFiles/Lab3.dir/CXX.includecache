@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeDynamic.h
+iostream
+-
+vector
+-
+
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeStatic.h
+iostream
+-
+vector
+-
+
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CTreeDynamic.h
+CNodeDynamic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeDynamic.h
+
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CTreeStatic.h
+CNodeStatic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeStatic.h
+
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/main.cpp
+iostream
+-
+CNodeStatic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeStatic.h
+CNodeDynamic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CNodeDynamic.h
+CTreeStatic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CTreeStatic.h
+CtreeDynamic.h
+C:/Users/Mufasa/OneDrive/Documents/GitHub/School Projects/C++/Lab3/CTreeDynamic.h
+
